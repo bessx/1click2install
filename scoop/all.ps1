@@ -3,13 +3,13 @@
 $env:scoopApps = "C:\Users\" + $env:username + "\scoop\apps"
 $env:scoopApps
 
-scoop install gcc 
+scoop install gcc
 =======Phase 3: Create the gccPath environment variable===
 $env:gccPath = $env:scoopApps + "/gcc"
 $env:gccPath
 $env:gccBin = $env:gccPath + "/Bin"
 $env:gccBin
-$env:Path = $env:Path + $env:gccBin
+$env:Path = $env:Path + ";" + $env:gccBin
 $env:Path
 
 =======Phase 4: Test and ensure===
