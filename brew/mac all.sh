@@ -9,5 +9,5 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew doctor
 brew install git,
 // foxit reader,Spectacle,screencast-o-matic,
-1. brew cask install intellij-idea,filezilla, mactex, wechat,google-drive-file-stream, google-backup-and-sync,jetbrains-toolbox
+brew cask install jetbrains-toolbox,intellij-idea,filezilla, mactex, wechat,google-drive-file-stream, google-backup-and-sync,flux
 
