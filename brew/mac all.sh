@@ -7,7 +7,8 @@ gcc --version
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
-brew install git,
-// foxit reader,Spectacle,screencast-o-matic,Kubernetes
-brew cask install jetbrains-toolbox,intellij-idea,filezilla, mactex, wechat,google-drive-file-stream, google-backup-and-sync,flux,zoom,docker,virtualbox,
+brew install git
+#brew install $(<packages.txt)
+// foxit-reader Spectacle screencast-o-matic 
+brew cask install jetbrains-toolbox intellij-idea filezilla  mactex  wechat google-drive-file-stream  google-backup-and-sync flux zoom docker virtualbox
 
